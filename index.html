@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nombre caché</title>
+    <script type="text/javascript" src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="incon" href="https://cdn.discordapp.com/attachments/673649344418938900/938166412655099924/Q1tiHead_-_Hear.png">
+  </head>
+  <body>
+    <head>
+        <h1>Nombre caché</h1>
+    </head>
+    <main>
+      <p>Trouvez le nombre caché entre 0 et 100 en 10 essais maximum</p>
+      <input type="number" id="nbrInput" placeholder="Numéro: ">
+      <p id="message"></p>
+      <button type="button" id="send" onclick="testNbr()">Envoyer</button>
+      <button type="button" id="forfeit" onclick="forfeit()">Abandonner</button>
+      <button type="button" id="restart" onclick="restartGame()" hidden>Nouvelle partie</button>
+    </main>
+  </body>
+</html>
