@@ -9,3 +9,4 @@ The player has 10 tries to find the number. Depending on the number entered by p
 * It's the good number
 
 Player can be forfeit and/or restart game
+
